@@ -1,7 +1,15 @@
-'use strict';
 
-let hasDriversLicense = false;
-let passTest = true;
 
-if (passTest) {hasDriverLicense = true;}
-if (hasDriversLicense) console.log("I can drive!");
+
+const friend = {
+    name: "Jordan",
+    lastName: "Wahler",
+    birthYear: 21,
+    job: "student",
+
+    calcAge: function (birthYear) {
+        return 2025 - birthYear;
+    }
+}
+
+console.log(friend.calcAge(friend.birthYear));
