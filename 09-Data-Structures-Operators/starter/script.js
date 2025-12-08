@@ -7,7 +7,7 @@ const flights =
 const italianFoods = new Set([
   'pasta',
   'gnocchi',
-  'tomatoes',
+  'tomatoes', 
   'olive oil',
   'garlic',
   'basil',
@@ -45,3 +45,11 @@ const restaurant = {
     },
   },
 };
+
+const [first, second, third, fourth] = restaurant.categories;
+
+console.log(first, second, third, fourth);
+
+const { name, openingHours, mainMenu } = restaurant;
+
+console.log(name, openingHours, mainMenu);
