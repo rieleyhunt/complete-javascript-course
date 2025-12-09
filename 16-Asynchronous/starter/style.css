@@ -23,16 +23,17 @@ body {
 .container {
   display: flex;
   flex-flow: column;
+  flex-direction: row;
   align-items: center;
+  gap: 12px;
 }
 
 .countries {
   /* margin-bottom: 8rem; */
   display: flex;
-
   font-size: 2rem;
   opacity: 0;
-  transition: opacity 1s;
+  transition: all 1s;
 }
 
 .country {
