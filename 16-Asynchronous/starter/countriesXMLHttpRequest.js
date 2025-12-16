@@ -2,7 +2,7 @@
 
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
-const country = "canada"
+const country = "portugal";
 // NEW COUNTRIES API URL (use instead of the URL shown in videos):
 // https://restcountries.com/v2/name/portugal
 
